@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Crystal Collector </title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Crystal Collector</h1>
+            </div>
+            <div class="col-md-6">
+                <div id="description">
+                    <p>
+                        You will be given a random number at the start of the game.
+                    </p>
+                    <p>
+                        There are four crystals to the right. By clicking on a crystal you will add a specific amount of points to your total score.
+                    </p>
+                    <p>
+                        You win the game by matching your total score to the random number. You lose the game if your total score goes above the
+                        random number.
+                    </p>
+                    <p>
+                        The value of each crystal is hidden from you until you click on it.
+                    </p>
+                    <p>
+                        The game will change the value of each crystal every time when a new game starts.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="game">
+                    <div class="container-scorebox">
+                        <div class="scoreboxes">
+                            <div class="score-box" id="computer-score">
+                                <h3> Number
+                                    <h3>
+                                        <p>25</p>
+                            </div>
+                            <div class="score-box" id="my-score">
+                                <h3> Your Score
+                                    <h3>
+                                        <p>25</p>
+                            </div>
+                        </div>
+                        <div class="crystals">
+                            <div class="crystal" id="blue">
+                                <img src="assets/images/bluecrystal.jpg">
+                            </div>
+                            <div class="crystal" id="yellow">
+                                <img src="assets/images/yellowcrystal.jpg">
+                            </div>
+                            <div class="crystal" id="red">
+                                <img src="assets/images/redcrystal.jpg">
+                            </div>
+                            <div class="crystal" id="green">
+                                <img src="assets/images/greencrystal.jpg">
+                            </div>
+                        </div>
+                        <div class="status-message">
+                            <p id="status"> YOU WIN! </p>
+                        </div>
+                        <div class="stats">
+                            <p id="wins"> WINS: 0 </p>
+                        </div>
+                        <div class="stats">
+                            <p id="losses"> LOSSES: 0 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>

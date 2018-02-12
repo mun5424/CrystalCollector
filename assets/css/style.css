@@ -1,0 +1,81 @@
+body { 
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    border: 5px solid white;
+    color: white; 
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    margin: 20px ;
+}
+.container {
+    overflow: hidden;   
+    display: block;
+}
+
+.container-scorebox{
+    display: block;
+}
+#description, #game {
+    border: 5px solid white;
+    color: white;
+    line-height: 25px;
+    margin: 10px;
+    height: 400px;
+    padding: 20px;
+    display: block;
+}
+
+.score-box {
+    width: 49%; 
+    text-align: center;
+    height: 120px;
+    display: inline-block;
+}
+
+
+.crystals {
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+
+
+.crystal {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align:center;
+ }
+
+ .crystal img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: auto; 
+    margin-right: auto; 
+ }
+ .crystal:hover{
+     cursor: pointer;
+ }
+
+ .status-message {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.stats {
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    font-size: 20px;
+    padding: 20px;
+}
