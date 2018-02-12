@@ -23,14 +23,22 @@ h3 {
 .container-scorebox{
     display: block;
 }
+
 #description, #game {
     border: 5px solid white;
     color: white;
     line-height: 25px;
     margin: 10px;
-    height: 400px;
-    padding: 20px;
+    height: 420px;
     display: block;
+}
+
+#description {
+    padding: 20px;
+}
+
+#game { 
+
 }
 
 .score-box {
